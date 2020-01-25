@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\JumpAttacker\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\JumpAttacker\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Forms.1328086240.00" t="ExcludeRecursive" />
+    <e p="C:\Users\JumpAttacker\AppData\local\Android\Sdk\platforms\android-28\data\res" t="IncludeRecursive" />
+    <e p="C:\Users\JumpAttacker\source\repos\Forms" t="IncludeFlat">
+      <e p="Forms\Forms" t="IncludeRecursive">
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Forms.csproj" t="IncludeRecursive" />
+        <e p="MainPage.xaml" t="Include" />
+        <e p="MainPage.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Forms.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Forms\Forms.Android" t="IncludeRecursive">
+        <e p="Assets" t="Include">
+          <e p="AboutAssets.txt" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Forms.Android.csproj" t="IncludeRecursive" />
+        <e p="MainActivity.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AndroidManifest.xml" t="Include" />
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="AboutResources.txt" t="Include" />
+          <e p="drawable" t="Include">
+            <e p="egg.jpg" t="Include" />
+            <e p="egg2.png" t="Include" />
+            <e p="egg3.png" t="Include" />
+          </e>
+          <e p="layout" t="Include">
+            <e p="Tabbar.xml" t="Include" />
+            <e p="Toolbar.xml" t="Include" />
+          </e>
+          <e p="mipmap-anydpi-v26" t="Include">
+            <e p="icon.xml" t="Include" />
+            <e p="icon_round.xml" t="Include" />
+          </e>
+          <e p="mipmap-hdpi" t="Include">
+            <e p="icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+          </e>
+          <e p="mipmap-mdpi" t="Include">
+            <e p="icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+          </e>
+          <e p="mipmap-xhdpi" t="Include">
+            <e p="icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+          </e>
+          <e p="mipmap-xxhdpi" t="Include">
+            <e p="icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+          </e>
+          <e p="mipmap-xxxhdpi" t="Include">
+            <e p="icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+          </e>
+          <e p="Resource.designer.cs" t="Include" />
+          <e p="values" t="Include">
+            <e p="colors.xml" t="Include" />
+            <e p="styles.xml" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Forms.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

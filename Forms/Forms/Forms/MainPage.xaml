@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Forms.MainPage">
+    <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <Grid>
+            <Image Source="background"  Aspect="Fill" Opacity="0.8" />
+            <Image Source="egg3" BackgroundColor="Transparent" VerticalOptions="Start" Margin="0,100,0,0"/>
+            <StackLayout Margin="0,0,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+                <Label TextColor="Red" FontSize="Title" HorizontalOptions="Center" FontFamily="Roboto">Welcome</Label>
+                <Label TextColor="Red" FontSize="Title" HorizontalOptions="Center" FontFamily="Roboto">to</Label>
+                <Label TextColor="Red" FontSize="Title" HorizontalOptions="Center" FontFamily="Roboto">HAPPY</Label>
+                <Label TextColor="Red" FontSize="Title" HorizontalOptions="Center" FontFamily="Roboto">EGGS</Label>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Entry BackgroundColor="Azure" x:Name="LoginEntry" Placeholder="Login" WidthRequest="150"/>
+                    <Entry BackgroundColor="Azure" x:Name="PasswordEntry" IsPassword="True" Placeholder="Password" WidthRequest="150"/>
+                </StackLayout>
+                <Button x:Name="LoginButton" Text="Login" />
+                <Label FontSize="Body" HorizontalOptions="Center">OR</Label>
+                <Button x:Name="RegButton" Text="Registration" Clicked="regButton_Clicked"/>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
